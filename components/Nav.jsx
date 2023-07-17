@@ -122,7 +122,7 @@ const Nav = () => {
                   type='button'
                   key={provider.name}
                   onClick={() => {
-                    signIn(provider.id);
+                    signIn();
                   }}
                   className='black_btn'
                 >
